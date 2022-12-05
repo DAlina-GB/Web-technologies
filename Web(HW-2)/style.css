@@ -1,0 +1,76 @@
+/* Шрифты */
+h1 {
+    color: rgb(7, 7, 7);
+    font-family: 'Appetite', sans-serif;
+}
+h2 {
+    color: rgb(7, 7, 7);
+    font-family: 'Appetite', sans-serif;
+}
+
+h3 {
+    color: rgb(7, 7, 7);
+    font-family: 'Dewberry Bold', sans-serif;
+}
+p {
+    color: rgb(7, 7, 7);
+    font-family: 'Dewberry Bold', sans-serif;
+}
+ul{
+    color: rgb(7, 7, 7);
+    font-family: 'Dewberry Bold', sans-serif;
+}
+ol{
+    color: rgb(7, 7, 7);
+    font-family: 'Dewberry Bold', sans-serif;
+}
+
+html {
+    background-color:#996ad65d
+    ;
+}
+.text {
+ text-align:  center;
+}
+
+
+.text2 {
+ text-align:left;
+ width: 600px; /* Ширина слоя в пикселах */
+ margin: 0 auto; /* Отступ слева и справа */
+ padding: 10px; /* Поля вокруг текста */
+} 
+
+
+body { 
+margin: 0; /* Убираем отступы */
+}
+.parent {
+margin: 3%; /* Отступы вокруг элемента */
+background: #FFDC73; /* Цвет фона */
+padding: 30px; /* Поля вокруг текста */
+} 
+.child {
+border: 1px solid #666; /* Параметры рамки */
+padding: 10px; /* Поля вокруг текста */
+margin: 10px; /* Отступы вокруг */
+}
+
+@font-face {
+	font-family: 'Appetite';
+	src: url('fonts/appetite.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/appetite.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/appetite.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/appetite.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/appetite.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/appetite.svg#appetite') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'Dewberry Bold';
+	src: url('fonts/dewberry_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/dewberry_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/dewberry_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/dewberry_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/dewberry_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/dewberry_bold.svg#dewberry_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
